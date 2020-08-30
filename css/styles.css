@@ -1,10 +1,13 @@
-.navbar{
-    background-color: rgb(250, 192, 255);
-    
+.ABOUT US p{
+    float: left;
+    align-content: center;
+
 }
-.background-image{
-    /* position: fixed; */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* padding-top: 50px; */
+h2{
+    
+    padding-top: 40px;
+
+}
+.SERVICES{
+    padding-top: 40px;
 }
