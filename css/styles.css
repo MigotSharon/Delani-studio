@@ -11,3 +11,9 @@ h2{
 .SERVICES{
     padding-top: 40px;
 }
+.portfolio{
+    background-image:url(../images/work4.jpg)
+}
+.jumbotron{
+    align-items: center;
+}
