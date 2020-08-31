@@ -1,9 +1,9 @@
 # project Name
-* * Delani-Studio
+*  Delani-Studio
 # Author
-* * MigotSharon
+*  MigotSharon
 # Project Description
-* *  landing page for a fictional studio  
+*   landing page for a fictional studio  
 
 # Demo
 * Here is a live link to the project
@@ -11,6 +11,7 @@
  * Bootsrap and css
  * html
  * jquery
+ * Mailchimp
 
  # contact Information
  * Number:0790437491
