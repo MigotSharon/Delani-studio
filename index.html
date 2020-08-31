@@ -5,126 +5,163 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="navbar" id="myTopnav">
-      <a href="#HOME" class="active">HOME</a>
-      <a href="#ABOUT US">ABOUT US</a>
-      <a href="#SERVICES">SERVICES</a>
-      <a href="#WHAT WE DO">WHAT WE DO</a>
-      <a href="#PORTRFOLIO">PORTFOLIO</a>
-      <a href="#CONTACT US">CONTACT US</a>
-      <!-- End of navigation bar -->
 
-      <section>
-        <div class="HOME">
-          <div class="background-image">
-            <img src="images/h_img.jpg" alt="background-image">
+  <div class="container-fluid" id="landing page">
+    <div class="jumbotron">
+      <div class=" text-center">
+        <img class="image-1" src="./assets/logo/logo.png">
+        <h1 class="image-1 text-uppercase text-white">welcome</h1>
+        <p class="image-1 text-uppercase">to delani studio</p>
+        <p class="image-1 text-uppercase">amazing people are making amazing designs in a fun environment</p>
+        <a href="#about"><img class="image-1" class="mouse-click" src="./assets/mouse_click.png" alt=""></a>
+      </div>
+    </div>
+    <div class="about-us text-center" id="about">
+      <h2>ABOUT US</h2>
+      <P>When you work with us,you are part of team committed colllaborators.All asapects of software development
+        process are intergrated,interactive<br> and agile<br> <br>Our approach unifies design.development and
+        product management to create exceptional products.<br>We start each project by understanding your
+        bussiness goals, the user's needs and the product rquirements<br>Then we help translate them into
+        effective and elegant solutions.</P>
+    </div>
+    <div class="services text-center">
+      <h3>SERVICES</h3>
+      <P>Before we sign a contract or write a line of code our team will spend the necessatry time needed to
+        understand you product your vision<br>The out come of this scoping session in proposal or high-level
+        statement of work.<br>based on your requirements,we can provide acomplete offering or just the pieces
+        you need.</P>
+    </div>
+    <div class="what-we-do">
+      <h4 class="text-center">WHAT WE DO</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./assets/services_icons/design_icon.png" alt="" id='image-1' class="image1">
+          <p>DESIGN</p>
+          <div id="showDesign">
+            <p id="para1" class="para1">Our design practice offers a full<br> range of services
+              including brand <br>strategy,
+              interaction and visual<br> design and user experience<br> testing.Throughout your project,
+              our <br>designers create and implement <br>visual design</p>
           </div>
         </div>
-      </section>
-      <!-- End of homepage -->
-
-      <section>
-        <div class="ABOUT US">
-          <h2>About us</h2>
-          <p>
-            When you work with us, you are part of a team of commited collaborators.All aspects of our software
-            development process are intergrated, interactive and agile.<br>
-            Our approaches unifies design, development and management to creare exceptional products.<br>
-            We start each project by understanding your business goals, the user's needs and product requirements.<br>
-            Then we help translate them in to effective elegant solutions.
-          </p>
-
-        </div>
-
-      </section>
-
-      <section>
-        <div class="SERVICES">
-          <div class="background-image">
-            <img src="images/s_image.jpg" alt="Services offered">
-
+        <div class="col-md-4">
+          <img src="./assets/services_icons/dev_icon.png" alt="" id="image-2" class="image2">
+          <P>DEVELOPMENT</P>
+          <div id="showDevevelopment">
+            <P id="para2" class="para2">All engineers are fluent in the latest <br>enterprise, mobile
+              and web <br>development
+              technologies.They <br>collaborate with your team to write<br> and improve code on a daily
+              basis,<br> using proven practices such as<br> test-driven development and pair <br>
+              programming.</P>
           </div>
-
         </div>
-
-      </section>
-
-      <section>
-        <div class="WHAT WE DO">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="image-design">
-                <img src="images/design_icon.png" alt="Designing">
-                <h5>DESIGN</h5>
-                <p>
-
-
-                  Our design practice offers a full range of services including brand strategy, interaction and visual
-                  design and user experience testing.
-                  Throughout your project, our designers create and implement visual design and workflows, solicit user
-                  feedback and work with you to make sure what gets built is what is needed.
-
-                </p>
-
-              </div>
-
-            </div>
-            <div class="col-md-4">
-              <div class="image-development">
-                <img src="images/dev_icon.png" alt="">
-                <h3>DEVELOPMENT</h3>
-                <p>
-                  All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                  They collaborate with your team to write, and improve code on a daily basis, using proven practices
-                  such as test-driven development and pair programming.
-                </p>
-
-              </div>
-
-            </div>
-            <div class="col-md-4">
-              <div>
-                <img src="images/product_icon.png" alt="">
-                <h3>PRODUCT MANAGEMENT</h3>
-                <p>
-                  Planning and development is iterative. Because we are constantly coding and testing, the products we
-                  build are always ready to go live.
-                  This iterative process allows for changes as business requirements evolve.
-                </p>
-              </div>
-
-            </div>
-
+        <div class="col-md-4">
+          <img src="./assets/services_icons/product_icon.png" alt="" id="image-3" class="image3">
+          <div id="showProduct">
+            <p>PRODUCT MANAGEMENT</p>
+            <P id="para3" class="para3">Planning and development is iterative. Because we are
+              constantly coding and testing that the
+              products we build are always ready to go live.This iterative process allows for changes as a
+              business requirements evolve. </P>
           </div>
-
         </div>
-      </section>
-
-      <section>
-        <div class="PORTFOLIO">
-          <h2>[PORTFOLIO</h2>
-          
+      </div>
+    </div>
+    <div class="portfolio">
+      <h1 class="text-center">PORTFOLIO</h1>
+      <div class="row">
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work4.jpg" alt="" class="studio">
+          <div class="overlay">
+            <div class="text1">BLACK<br>STUDIO</div>
+          </div>
         </div>
-        
-  
-      </section>
-      
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work3.jpg" alt="" class="ontario">
+          <div class="overlay">
+            <div class="text2">ONTARIO<br>SECURITY</div>
+          </div>
+        </div>
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work2.jpg" alt="" class="studio3">
+          <div class="overlay">
+            <div class="text3">PYRAMIDS</div>
+          </div>
+        </div>
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work1.jpg" alt="" class="studio4">
+          <div class="overlay">
+            <div class="text4">JIM CARREY</div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-md-3 " id="pic">
+          <img src="./assets/portfolio/work5.jpg" alt="" class="studio5">
+          <div class="overlay">
+            <div class="text5">HAVE A<br>GOOD DAY</div>
+          </div>
+        </div>
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work6.jpg" alt="" class="studio6">
+          <div class="overlay">
+            <div class="text6">CALENDAR</div>
+          </div>
+        </div>
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work7.jpg" alt="" class="studio7">
+          <div class="overlay">
+            <div class="text7">BURNED<br>LOGO</div>
+          </div>
+        </div>
+        <div class="col-md-3" id="pic">
+          <img src="./assets/portfolio/work8.jpg" alt="" class="studio8">
+          <div class="overlay">
+            <div class="text8">GIRAFFE<br>RESTAURANT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact text-center">
+      <h1 class="text-center text-white">CONTACT US</h1>
+      <form class="form-group" id="form"
+        action="https://gmail.us17.list-manage.com/subscribe/post?u=34c738e9dd8ffae637c679265&amp;id=b89fa09c6d"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate>
+        <input class="form-group-1" type="text" placeholder="Name..." name="NAME" class="" id="mce-NAME">
+        <input class="form-group-1" type="email" placeholder="Email..." name="EMAIL" class="required email"
+          id="mce-EMAIL"><br>
+        <textarea name="" placeholder="Your message here" cols="90" rows="8"></textarea  name="MESSAGE" class="" id="mce-MESSAGE"><br>
+        <button id="btn" onclick="mercyy()" type="submit">Submit</button>
+    </form>
+</div>
+<div class="social-icons">
+    <div class="row">
+            <img src="./assets/social_icons/twitter.png" alt="">
+            <img src="./assets/social_icons/dribble.png" alt="">
+            <img src="./assets/social_icons/facebook.png" alt="">
+            <img src="./assets/social_icons/g_plus.png" alt="">
+            <img src="./assets/social_icons/skype.png" alt="">
+            <img src="./assets/social_icons/stumble_upon.png" alt="">
+            <img src="./assets/social_icons/behance.png" alt="">
+            <img src="./assets/social_icons/pinterest.png" alt="">
+            <img src="./assets/social_icons/flickr.png" alt="">
+    </div>
+</div>
+<div class="footer text-center">
+    <p>DELANI STUDIO <br>2020</p>
+</div>
+</div>
 
 
-      
-
-
-
-
-
-      <script src="js/jquery.min.js"></script>
-      <script src="js/script.js"></script>
+</div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
