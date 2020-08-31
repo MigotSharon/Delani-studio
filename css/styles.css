@@ -1,4 +1,23 @@
-#landing-page{
+.jumbotron{
     background-image:url(../images/h_img.jpg);
-    b
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+
+.services{
+    background-image: url(../images/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.contact{
+   background-image: url(../images/c_image.jpg);
+   background-size: cover; 
+}
+.social-icons{
+    align-items: center;
+    padding-left: 40%;
 }
