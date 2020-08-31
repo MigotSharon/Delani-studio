@@ -48,12 +48,14 @@ $(document).ready(function () {
         $(".text4").hide();
     });
 });
+
 $(document).ready(function () {
     $("#pic5").mouseover(function () {
         $(".text5").show();
     }).mouseout(function () {
         $(".text5").hide();
     });
+    
 });$(document).ready(function () {
     $("#pic6").mouseover(function () {
         $(".text6").show();

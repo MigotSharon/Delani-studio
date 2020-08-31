@@ -15,11 +15,14 @@
 }
 .contact{
    background-image: url(../images/c_image.jpg);
-   background-size: cover; 
+   background-size: cover;
+   margin-top: 5%;
+   height: 50vh; 
 }
 .social-icons{
     align-items: center;
     padding-left: 40%;
+    margin-top: 10px;
 }
 
 .text1{
@@ -33,3 +36,88 @@
     padding-top:20px ;
     display: none;
 }
+
+.text2{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text3{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text4{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text5{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text6{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text7{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
+.text8{
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top:20px ;
+    display: none;
+}
+
