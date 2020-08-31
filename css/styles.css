@@ -35,6 +35,7 @@
     text-align: center;
     padding-top:2px ;
     display: none;
+    margin-bottom: 20px;
 }
 
 .text2{
@@ -47,6 +48,7 @@
     text-align: center;
     padding-top:20px ;
     display: none;
+    margin-left: 20px;
 }
 
 .text3{
@@ -71,6 +73,7 @@
     text-align: center;
     padding-top:20px ;
     display: none;
+    margin: 10px;
 }
 
 .text5{
