@@ -7,6 +7,8 @@
 
 # Demo
 * Here is a live link to the project
+    https://github.com/MigotSharon/Delani-studio.
+
  # Technologies Used
  * Bootsrap and css
  * html
