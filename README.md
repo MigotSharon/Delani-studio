@@ -4,7 +4,7 @@
 *  MigotSharon
 # Project Description
 *   landing page for a fictional studio  
-
+    https://github.com/MigotSharon/Delani-studio
 # Demo
 * Here is a live link to the project
  # Technologies Used
