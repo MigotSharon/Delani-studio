@@ -55,8 +55,8 @@ $(document).ready(function () {
     }).mouseout(function () {
         $(".text5").hide();
     });
-    
-});$(document).ready(function () {
+
+}); $(document).ready(function () {
     $("#pic6").mouseover(function () {
         $(".text6").show();
     }).mouseout(function () {
