@@ -1,12 +1,16 @@
 # project Name
 *  Delani-Studio
+
 # Author
 *  MigotSharon
+
 # Project Description
-*   landing page for a fictional studio 
+*   landing page for a fictional studio  
+    https://migotsharon.github.io/Delani-studio/
+
+
 # Demo
 * Here is a live link to the project
-  * https://github.com/MigotSharon/Delani-studio.
 
  # Technologies Used
  * Bootsrap and css
