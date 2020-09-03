@@ -6,11 +6,10 @@
 
 # Project Description
 *   landing page for a fictional studio  
-    https://migotsharon.github.io/Delani-studio/
-
 
 # Demo
 * Here is a live link to the project
+ https://migotsharon.github.io/Delani-studio/
 
  # Technologies Used
  * Bootsrap and css
