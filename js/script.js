@@ -55,14 +55,19 @@ $(document).ready(function () {
     }).mouseout(function () {
         $(".text5").hide();
     });
+});
 
-}); $(document).ready(function () {
+
+$(document).ready(function () {
     $("#pic6").mouseover(function () {
         $(".text6").show();
     }).mouseout(function () {
         $(".text6").hide();
     });
 });
+
+
+
 
 $(document).ready(function () {
     $("#pic7").mouseover(function () {
@@ -72,6 +77,11 @@ $(document).ready(function () {
     });
 });
 
+
+
+
+
+
 $(document).ready(function () {
     $("#pic8").mouseover(function () {
         $(".text8").show();
@@ -79,6 +89,20 @@ $(document).ready(function () {
         $(".text8").hide();
     });
 });
+
+$(document).ready(function () {
+    $("#form").submit(function () {
+        let name = $("#migs-NAME").val();
+        let email = $("#shaz-EMAIL").val()
+        let message = $("#my-MESSAGE").val()
+        alert(name + "Thank you for contacting us.We have gladly received you message");
+    });
+});
+
+
+
+
+
 
 
 
